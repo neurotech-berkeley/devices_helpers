@@ -3,7 +3,7 @@
 SCRIPT_DIR=$(realpath "./")
 SHELL_CONFIG="$HOME/.bashrc"
 
-# add support for .bashrc and if neither file exist
+# TODO: add support for .bashrc and if neither file exist
 if [ "$SHELL" == "/bin/zsh" ]; then
     SHELL_CONFIG="$HOME/.zshrc"
 fi
